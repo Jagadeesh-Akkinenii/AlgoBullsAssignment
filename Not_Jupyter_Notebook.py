@@ -7,10 +7,10 @@ directory = os.getcwd()
 choice = input("ENTER YOUR CHOICE\n1. GOOGL\n2. AAPL\n")
 
 if choice == "1" or choice == "GOOGL":
-    with open(directory + "\\postman collection\\response.json", "r") as f:
+    with open(directory + "\\response.json", "r") as f:
         data = json.load(f)
 elif choice == "2" or choice == "AAPL":
-    with open(directory+"\\postman collection\\response_AAPL.json", "r") as f:
+    with open(directory+"\\response_AAPL.json", "r") as f:
         data = json.load(f)
 else:
     print("INVALID ENTRY")
@@ -30,7 +30,10 @@ class ScriptData:
 	
 	def fetch_historical_data(self):
 		# Get json object with the intraday data
-		df_csv = pd.read_csv(directory + "\\postman collection\\extended_intraday_GOOGL.csv")
+		if choice == "1" or choice == "GOOGL":
+			df_csv = pd.read_csv(directory + "\\extended_intraday_GOOGL.csv")
+		elif choice == "2" or choice == "AAPL":
+			df_csv = pd.read_csv(directory + "\\extended_intraday_AAPL.csv")
 		df_csv = df_csv.rename(columns={'time': 'timestamp'})
 		return df_csv
 		
