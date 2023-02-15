@@ -17,8 +17,8 @@ work based on the JSON, CSV files in the repository which
 were exported from Postman.
 
 I will be stopping this here for now, I will be adding more
-details and update the instruction and I will also be adding
-comments to the codes by 10:00 PM 16th February,2023 as I did
+details and update the instruction. I will also be adding
+comments to the codes by 10:00 PM of 16th February,2023 as I did
 not expect it to take this long to code.
 
 Feel free to test out these code.
