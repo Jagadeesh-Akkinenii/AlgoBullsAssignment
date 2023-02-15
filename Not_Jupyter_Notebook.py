@@ -7,7 +7,7 @@ directory = os.getcwd()
 choice = input("ENTER YOUR CHOICE\n1. GOOGL\n2. AAPL\n")
 
 if choice == "1" or choice == "GOOGL":
-    with open(directory + "\\response.json", "r") as f:
+    with open(directory + "\\response_GOOGL.json", "r") as f:
         data = json.load(f)
 elif choice == "2" or choice == "AAPL":
     with open(directory+"\\response_AAPL.json", "r") as f:
