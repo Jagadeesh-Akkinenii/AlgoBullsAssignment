@@ -6,9 +6,9 @@ In this repository you will be able to see 9 files
 excluding this file.
 
 The main files are as follows
--> with_alphavantage_api_key.ipynb
--> with_postman_collection_AAPL.ipynb
--> with_postman_collection_GOOGL.ipynb
+1. with_alphavantage_api_key.ipynb
+2. with_postman_collection_AAPL.ipynb
+3. with_postman_collection_GOOGL.ipynb
 
 As the names of these Jupyter Notebook files suggest
 the first one should be considered if you have your own
