@@ -11,7 +11,7 @@ The main files are as follows
 3. GOOGL_postman_collection.ipynb
 
 As the names of these Jupyter Notebook files suggest,
-## 1. AAPL_postman_collection.ipynb
+## 1. with_alphavan_api.ipynb
 The first one is used when we want to use Alpha Vantage package
 which directly fetches the desired data from Alpha Vantage
 (API KEY maybe required but we can still get the data we want without it).
@@ -37,7 +37,7 @@ For all the programs I added comments which should explain most of the details.
 Feel free to test out these codes.
 
 Note:
-I don't know why but with_alphavan_api.ipynb often randomly gets 
+I don't know why but "with_alphavan_api.ipynb" often randomly gets 
 errors regarding API calls and running it a few times gives the
 proper output I am assuming its because of some issue while fetching
 data from Alpha Vantage.
