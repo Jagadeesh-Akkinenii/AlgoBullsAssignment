@@ -1,6 +1,6 @@
 # AlgoBullsAssignment
 
---------INSTRUCTIONS--------
+# --------INSTRUCTIONS--------
 
 In this repository you will be able to see 9 files
 excluding this file.
