@@ -5,6 +5,15 @@
 In this repository you will be able to see 9 files
 excluding this file.
 
+## requirements.txt
+The requirements.txt contains all the necessary packages
+that can be quickly installed.
+Once the virtual environment has been created and activated which 
+can be done as follows,
+"env\Scripts\activate.bat" this is for windows cmd(Change env with
+the name of your venv name). Now type "pip install - r requirements.tx" 
+in cmd to quickly install all the necessary packages to run these programs.
+
 The main files are as follows
 1. with_alphavan_api.ipynb
 2. AAPL_postman_collection.ipynb
