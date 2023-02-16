@@ -17,11 +17,6 @@ which directly fetches the desired data from Alpha Vantage
 The second and third files work based on the JSON, CSV files in
 the repository which were exported from postman.com.
 
-I will be stopping this here for now, I will be adding more
-details and update the instruction. I will also be adding
-comments to the codes by 10:00 PM of 16th February,2023 as I did
-not expect it to take this long to code.
-
 You can use for_ide.py in IDLE/IDE this gives the same result except
 this programs asks at the starting of the program if you want GOOGL data
 or AAPL data.
