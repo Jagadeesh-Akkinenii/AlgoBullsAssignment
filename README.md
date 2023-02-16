@@ -14,8 +14,9 @@ As the names of these Jupyter Notebook files suggest,
 ## 1. AAPL_postman_collection.ipynb
 The first one is used when we want to use Alpha Vantage package
 which directly fetches the desired data from Alpha Vantage
-(API KEY MAYBE REQUIRED). We just have to change the parameters
-while calling the class, functions, methods to "GOOGL" or "AAPL".
+(API KEY maybe required but we can still get the data we want without it).
+We just have to change the parameters while calling the classes, functions,
+methods to "GOOGL" or "AAPL".
 
 ## 2. AAPL_postman_collection.ipynb
 The second and third files work based on the JSON, CSV files in
