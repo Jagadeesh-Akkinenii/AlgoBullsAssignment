@@ -2,7 +2,7 @@
 
 # --------INSTRUCTIONS--------
 
-In this repository you will be able to see 9 files
+In this repository you will be able to see 10 files
 excluding this file.
 
 ## requirements.txt
@@ -40,6 +40,10 @@ GOOGL stock data.
 You can use for_ide.py in IDLE/IDE this gives the same result except
 this program asks at the starting of the program if you want GOOGL data
 or AAPL data.
+
+## candlestick_graph.py
+In this program after we select an option from the given i.e, "GOOGL"
+and "AAPL" it fetches the intraday data and plots a candlestick graph.
 
 For all the programs I added comments which should explain most of the details.
 
