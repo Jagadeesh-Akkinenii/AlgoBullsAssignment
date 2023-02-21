@@ -42,12 +42,12 @@ For all the programs I added comments which should explain most of the details.
 
 Feel free to test out these codes.
 
-Note:
+## Note:
 I don't know why but "using_alphavan_api.ipynb" often randomly gets 
 errors regarding API calls and running it a few times at the line where
 it is stopped gives the proper.
 
-Edit:
+## Edit:
 On searching for the above issue I found that we can make only a specific
 amount of API calls hence once the limit is reached it starts producing 
 errors. Apparently we can only make 5 API calls for a min, I started spamming
