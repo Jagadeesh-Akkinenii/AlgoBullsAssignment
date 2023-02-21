@@ -22,16 +22,17 @@ As the names of these Jupyter Notebook files suggest,
 ## 1. using_postman_files.ipynb
 This file work based on the JSON, CSV files in
 the repository which were exported from postman.com. This program
-works on AAPL stock data. This Jupyter notebook file follows each 
+works on GOOGL and AAPL stock data. This Jupyter notebook file follows each 
 instruction specified in the "AlgoBulls - Python Developer _ Strategy _ Coding Assignment" 
-provided by AlgoBulls.
+provided by AlgoBulls. At the end of the program I wrote a code which generated Candlestick
+graph for both GOOGL and AAPL data.
 
 ## 2. using_alphavan_api.ipynb
 This one is used when we want to use Alpha Vantage package
 which directly fetches the desired data from Alpha Vantage
 (API KEY maybe required but we can still get the data we want without it).
 We just have to change the parameters while calling the classes, functions,
-methods to "GOOGL" or "AAPL".
+methods to "GOOGL" or "AAPL". I included the graph for this program too.
 
 ## for_ide.py
 You can use for_ide.py in IDLE/IDE this gives the same result except
@@ -45,7 +46,7 @@ Feel free to test out these codes.
 ## Note:
 I don't know why but "using_alphavan_api.ipynb" often randomly gets 
 errors regarding API calls and running it a few times at the line where
-it is stopped gives the proper.
+it is stopped gives the proper output.
 
 ## Edit:
 On searching for the above issue I found that we can make only a specific
