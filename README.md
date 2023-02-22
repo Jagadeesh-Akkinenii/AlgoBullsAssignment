@@ -16,7 +16,7 @@ in cmd to quickly install all the necessary packages to run these programs.
 
 The main files are as follows
 1. using_postman_files.ipynb
-2. with_alphavan_api.ipynb
+2. using_alphavan_api.ipynb
 
 As the names of these Jupyter Notebook files suggest,
 ## 1. using_postman_files.ipynb
