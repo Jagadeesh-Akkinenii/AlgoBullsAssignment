@@ -51,9 +51,9 @@ it is stopped gives the proper output.
 ## Edit:
 On searching for the above issue I found that we can make only a specific
 amount of API calls hence once the limit is reached it starts producing 
-errors. Apparently we can only make 5 API calls for a min, I started spamming
-"shift + enter" which is actually giving me the desired output but I would 
-recommend using "using_postman_files.ipynb"
+errors. Apparently we can only make 5 API calls for a min, I started executing 
+the same line several times by pressing "shift + enter" it is actually giving 
+me the desired output but I would  recommend using "using_postman_files.ipynb"
 
 That's it from my side!
 
